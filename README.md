@@ -11,7 +11,7 @@ Trabalho de engenharia de software turma 10A 22022/2 , grupo EGS software.
 
 Nosso sistema tem como objetivo gerenciar as tarefas realizadas em um estabelecimento de Pet Shop, buscando levar ao usuario facilidade e praticidade na hora de organizar informações da sua empresa fazendo com que todo trabalho manual feito antes possa ser automatizado. 
 
-##Tecnologias utilizadas
+## Tecnologias utilizadas
 
 + HTML
 + CSS
