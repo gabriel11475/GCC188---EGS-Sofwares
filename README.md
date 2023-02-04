@@ -5,7 +5,7 @@ Trabalho de engenharia de software, turma 10A 2022/2 , grupo EGS software.
 
 - Eduardo Augusto Ribeiro
 - Saimon Gabriel de Andrade
-- Gabriel Augusto Lemos Da Silva
+- Gabriel Augusto Lemos Silva
 
 ## Descrição
 
