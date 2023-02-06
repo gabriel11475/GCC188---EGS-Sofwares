@@ -13,8 +13,8 @@ Nosso sistema tem como objetivo gerenciar as tarefas realizadas em um estabeleci
 
 ## Tecnologias utilizadas
 
-+ HTML
-+ CSS
-+ MySQL
-+ JavaScript
++ HTML5
++ CSS3
++ MySQL 8.0.21
++ JavaScript ES2022
 
