@@ -1,0 +1,71 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+    <head>
+        <meta charset="UTF-8">
+        <meta http-equiv="X-UA-Compatible" content="IE=edge">
+        <meta name="viewport" content="width=device-width, initial-scale=1.0">
+        <link rel="stylesheet" href="style.css">
+        <style>
+            
+            table, td, th {
+                border:solid 2px black;
+                padding:20px 50px;
+                margin: 80px auto;
+                font-family: Arial, Helvetica, sans-serif;
+            }
+            
+            th {
+                background-color:#F2784B;
+                
+            } 
+            .tt{
+                font-weight: bolder;
+            } 
+            
+        </style>
+        <title>Excluir Clientes</title>
+    </head>
+    <body>
+        <header>
+            <nav>
+                <a href="gerenciamento.html"> 
+                    INICIO
+                </a>
+            </nav>
+            <div class="conteiner">  
+                <img src="imagens/logo.jpg" alt="logo Banho e Tosa">
+                <h1>Excluir cliente</h1>
+            </div>
+        </header>
+        <main>    
+            <table>
+                <tr class="tt">
+                <th class="tt"> Nome </th>
+                <th class="tt"> CPF </th>
+                <th class="tt"> Telefone </th>
+                <th colspan="3" class="tt"> Pets </th>
+                <tr>
+                    <td> </td>
+                    <td> </td>
+                    <td> </td>
+                    <td colspan="1"> </td>
+                    <td colspan="2"> </td>
+                </tr>
+                <tr>
+                    <td></td>
+                    <td></td>
+                    <td></td>
+                    <td colspan="2"></td>
+                </tr>
+            </table>
+    
+            <div id="botao">
+                <form action="deleteCliente" method="POST">
+                    <input class="botao" type="submit" value="Confirmar">
+                </form>
+                <button class="botao" type="submit" formaction="controle_cliente.html" value="cancelar">Cancelar</button>
+            </div>
+        </main>
+    </body>
+</html>
+    

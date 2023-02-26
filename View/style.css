@@ -1,0 +1,167 @@
+@charset "UTF-8";
+
+body{
+    background-color: #F2784B;
+    font-family: Arial, Helvetica, sans-serif;
+
+}
+header{
+    background-color: #FFF0E0 ;
+    height: 90%;
+    margin: 0px 50px;
+    border: 2px solid #FFF0E0;
+}
+
+nav{
+    text-align: right;
+    margin: 50px auto;
+    margin: 10px;
+}
+nav>a{
+    color: #F55B04;
+    text-decoration: none;
+    padding: 5px;
+    font-weight: bold;
+}
+nav>a:hover{
+    background-color:#f2784b75;
+    color: black;
+}
+
+.conteiner>img{
+    width: 350px;
+    height: 250px;
+    margin-left: 10px;
+   
+
+}
+
+
+
+.conteiner{
+    display: flex;
+    flex-direction: row;
+    flex-wrap:wrap;
+    
+
+
+    
+}
+.conteiner>h1{
+    color: #F55B04;
+    text-align: center;
+    font-size: 50px;
+    margin-right:25%;
+    margin-left: 8%;
+}
+
+main{
+    background-color: #FFF0E0 ;
+    height: 90%;
+    margin: 0px 50px;
+    text-align: center;
+    border: 4px solid  #FFF0E0;
+}
+
+form{
+    margin: 30px;
+    color: #F2784B;
+    font-weight: bold;
+    text-align: left;
+    font-size: 20px;
+
+}
+.teste>input{
+    border-color: black;
+    box-shadow: 1px 1px 8px black;
+    padding: 4px 30px;
+}
+.botao{
+    background-color: white;
+    padding:10px 30px;
+    border-radius: 20px;
+    color: #F55B04;
+    font-weight: bold;
+    border-color:#F55B04;
+    margin: 20px;
+    font-size: 20px;
+  
+}
+
+#botao{
+    text-align: center;
+    display: block;
+}
+
+.botao:hover{
+    background-color:#f2784b75;
+    color: black;
+
+}
+
+    
+form>div{
+    display: inline-block;
+    padding: 0px 200px 0px 70px;
+    align-items: center;
+}
+.btn {
+    padding: 40px;
+    background-color: #F55B04;
+    text-decoration: none;
+    color: #FFFFFE;
+    font-weight: bold;
+    border-radius: 30px;
+    font-size: 24px;
+    text-align: center;
+    margin: 100px 20px ;
+    display: inline-block;
+    
+}
+.btn:hover{
+    padding: 45px;
+    margin: 95px 15px;
+}
+main>.texto_explicativo{
+    display: flex;
+
+}
+.texto_explicativo{
+    color: #F2784B;
+    font-weight: bold;
+    font-size: 20px;
+    padding: 20px;
+    justify-content: center;
+    
+    
+}
+form>.excluir{
+    display: flex;
+    padding: 0px;
+    
+}
+.excluir{
+    justify-content: center;
+    margin: 0px;
+
+}
+.excluir>input{
+    border-color: black;
+    
+    padding: 4px 30px;
+}
+
+form>.botaoe{
+    display: flex;
+}
+
+.botaoe{
+    padding:10px 30px;
+    border-radius: 20px;
+    color: #F55B04;
+    font-weight: bold;
+    border-color:#F55B04;
+    margin: 20px;
+    font-size: 20px;
+    justify-content: center;
+}

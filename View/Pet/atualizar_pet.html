@@ -1,0 +1,42 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="style.css">
+    <title>Atualizar Pet</title>
+</head>
+<body>
+    <header>
+        <nav>
+            <a href="gerenciamento.html"> 
+                INICIO
+            </a>
+        </nav>
+        <div class="conteiner">  
+        <img src="imagens/logo.jpg" alt="logo Banho e Tosa">
+        <h1>Atualizar Pet</h1>
+        </div>
+        </header>
+
+        <main >
+            <form action="/attpet" method="POST">
+                <div class="centralizar">
+                    <label for="nomePet">Nome:</label> <br>
+                    <input type="text" id="nomePet" name="nomePet" ><br> <br>
+                    <label for="racaPet">Nome:</label> <br>
+                    <input type="text" id="racaPet" name="racaPet" ><br> <br>
+                    <label for="peso">Peso:</label> <br>
+                    <input type="text" id="pesoPet" name="pesoPet" ><br> <br>
+                    <label for="especiePet">Nome:</label> <br>
+                    <input type="text" id="especiePet" name="especiePet" ><br> <br>
+                </div>
+                <div id="botao">
+                    <input class="botao" type="submit" value="  Alterar  ">
+                    <button class="botao" type="submit" formaction="controle_pet.html">Cancelar</button>
+                </div>
+            </form>
+        </main>
+    </body>
+</html>

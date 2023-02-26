@@ -1,0 +1,51 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="style.css">
+    <title>Cadastrar Clientes</title>
+</head>
+<body>
+    <header>
+        <nav>
+            <a href="gerenciamento.html"> 
+                INICIO
+            </a>
+        </nav>
+        <div class="conteiner">  
+        <img src="imagens/logo.jpg" alt="logo Banho e Tosa">
+        <h1>Alterar cliente</h1>
+        </div>
+        </header>
+
+        <main >
+            <form action="/attcliente" method="POST">
+                <pre>
+                <div class="teste">
+                <label for="nomePessoa">Nome:</label> <br>
+                <input type="text" id="nomePessoa" name="nomePessoa"  value='<%= pessoa.nomePessoa%>'><br> <br>
+                <label for="CPF">CPF:</label> <br>
+                <input type="text" id="CPF" name="CPF" value='<%= pessoa.cpf %>' ><br><br>
+                <label for="tel">Telefone:</label> <br>
+                <input type="text" id="tel" name="tel" value='<%= pessoa.tel%>' ><br> <br>
+                <label for="cid">Cidade:</label> <br>
+                <input type="text" id="cid" name="cid" value='<%= pessoa.cid %>' ><br><br>
+               
+                </div>
+                <div class="teste">
+                <label for="bairro">Bairro:</label> <br>
+                <input type="text" id="bairro" name="bairro" value='<%= pessoa.bai %>'><br> <br>
+                <label for="rua">Rua:</label> <br>
+                <input type="text" id="rua" name="rua" value='<%= pessoa.log %>'><br><br>
+                <label for="num">Numero:</label> <br>
+                <input type="text" id="num" name="num" value='<%= pessoa.num %>' ><br> <br>
+                </div>
+                </pre>
+                <div id="botao">
+                    <input class="botao" type="submit" value="  Alterar  ">
+                    <button class="botao" type="submit" formaction="controle_cliente.html">Cancelar</button>
+                </div>
+              </form>
+        </main>
